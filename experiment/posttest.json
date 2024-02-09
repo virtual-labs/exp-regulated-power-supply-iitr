@@ -1,39 +1,5 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+[{"question":"Ideal regulated power supplies have_______% voltage regulation.","answers":{"a":"2","b":"0","c":"7","d":"5"},"correctAnswer":"b"},
+{"question":"How many terminals do fixed voltage regulators have?","answers":{"a":"One","b":"Two","c":"Three","d":"Four"},"correctAnswer":"c"},
+{"question":"Thermal shutdown occurs in an IC regulator if ","answers":{"a":"Internal temperature is too high","b":"Power dissipation is too high","c":"Current through the device is too high","d":"All of the above"},"correctAnswer":"a"},
+{"question":"The 78XX series of voltage regulators produce an output voltage that is","answers":{"a":"Negative","b":"Positive","c":"Either positive or Negative","d":"Unregulated"},"correctAnswer":"b"},
+{"question":"What happens to the capacitance when a dielectric material is inserted between the plates of a parallel plate capacitor?","answers":{"a":"Capacitance decreases","b":"Capacitance remains same","c":"Capacitance increases","d":"Depends upon the material of the dielectric"},"correctAnswer":"c"}]
