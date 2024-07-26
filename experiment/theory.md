@@ -38,6 +38,24 @@ Although a half wave rectifier could technically be used, its power losses are s
 
 A bridge rectifier consists of four p-n junction diodes connected in the manner shown above. In the positive half cycle of the supply, the voltage induced across the secondary of the electrical transformer i.e., VMN is positive. Therefore point E is positive with respect to F. Hence, diodes D3 and D2 are reversed biased and diodes D1 and D4 are forward biased. The diode D3 and D2 will act as open switches (practically there is some voltage drop) and diodes D1 andD4 will act as closed switches and will start conducting. Hence a rectified waveform appears at the output of the rectifier as shown in the first figure. When voltage induced in secondary i.e. VMN is negative than D3 and D2 are forward biased with the other two reversed biased and a positive voltage appears at the input of the filter.
 
+### **Role of the Smoothing Capacitor**
+
+After the AC voltage is rectified (usually by a bridge rectifier), the output is a pulsating DC voltage that contains significant ripple. The smoothing capacitor's primary function is to reduce this ripple, converting the pulsating DC into a smoother, more stable DC voltage. The capacitance value (measured in farads) determines how much charge the capacitor can store. Larger capacitance values result in better smoothing.
+Common capacitance values for smoothing capacitors range from a few microfarads (μF) to several thousand microfarads, depending on the application and load requirements.
+
+### **Operation of the Smoothing Capacitor**
+
+#### **Charging Phase:**
+
+During the peaks of the rectified voltage, the capacitor charges up to the peak voltage level.
+The capacitor charges quickly because the voltage across it changes rapidly during the peak period of the rectified waveform.
+
+#### **Discharging Phase:**
+
+After the peak, the rectified voltage begins to drop.
+The capacitor then starts to discharge, providing current to the load and maintaining the voltage level.
+The discharge rate is slower compared to the charging rate, which helps to fill in the gaps between the peaks of the rectified voltage.
+
 ### **DC Filtration**
 
 The rectified voltage from the rectifier is a pulsating DC voltage having very high ripple content. But this is not we want, we want a pure ripple free DC waveform. Hence a filter is used. Different types of filters are used such as capacitor filter, LC filter, Choke input filter, π type filter. The figure below shows a capacitor filter connected along the output of the rectifier and the resultant output waveform.
