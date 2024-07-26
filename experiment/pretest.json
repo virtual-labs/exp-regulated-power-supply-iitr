@@ -1,5 +1,0 @@
-[{"question":"The regulated DC power supply also called _________?","answers":{"a":"Linear power supply","b":"Non-linear power supply","c":"Both a and b","d":"None of the above"},"correctAnswer":"a"},
-{"question":"The rectification is a process of converting _________?","answers":{"a":"Alternating current into direct quantity","b":"Alternating voltage into direct quantity","c":"Alternating current or voltage into direct quantity","d":"None of the above"},"correctAnswer":"c"},
-{"question":"The output of the rectification is _________?","answers":{"a":"Unidirectional","b":"Bidirectional","c":"Multidirectional","d":"None of the above"},"correctAnswer":"a"},
-{"question":"The efficiency of linear power supply is around _______?","answers":{"a":"10-20%","b":"15-20%","c":"30-40%","d":"20-30%"},"correctAnswer":"c"},
-{"question":"Which transformer is used in a regulated DC power supply?","answers":{"a":"Step up","b":"Step down","c":"Both a or b","d":"None of the above"},"correctAnswer":"b"}]
